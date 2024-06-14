@@ -18,7 +18,7 @@ A continuacion se detalla los servicios distribuidos proporcionados:
     - En el tercer nodo se configura un servicio NFS Kerberizado el cual exportara los directorios home correspondiente a cada uno de los usuarios.
   
 
-
+Para facilitar la gestios de las maquinas virtuales y automatizar algunos procesos se han implementado algunos manifiestos puppets asi como scripts shell y ruby
 A continuacion se explica la finalidad de cada manifiesto de puppet:
 + automont_cliente_ipa.pp
     - Este manifiesto establece el automontaje del directorio home para el cliente del dominio ipa que se haya configurado previamente.
