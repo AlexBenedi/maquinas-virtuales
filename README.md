@@ -12,7 +12,7 @@ A continuacion se detalla los servicios distribuidos proporcionados:
     - Se ha implementado en la red un servidor de sincornizacion de tiempos. Este se encuentra en uno de los routers.
     - Se ha implementado haciendo uso de NTPd y de chrony
 
-  * FreeIpa con NFS "Kerberizado"
+* FreeIpa con NFS "Kerberizado"
     - Para proporcionar este servicio se hace uso de 3 maquinas diferentes.
     - Se configura un nodo maestro y un nodo esclavo dentro del dominion Ipa.
     - En el tercer nodo se configura un servicio NFS Kerberizado el cual exportara los directorios home correspondiente a cada uno de los usuarios.
